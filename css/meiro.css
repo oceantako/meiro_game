@@ -1,0 +1,30 @@
+.matome {
+    position: relative;
+    margin: 10px auto;
+    width: 600px;
+}
+
+table {
+    border-collapse:  collapse;     /* セルの線を重ねる */
+}
+
+td {
+    width:  30px;              /* 幅指定 */
+    height: 30px;               /* 高さ指定 */
+}
+
+table.meiro_table td.b_top {
+    border-top: 2px solid #000;
+}
+
+table.meiro_table td.b_bottom {
+    border-bottom: 2px solid #000;
+}
+
+table.meiro_table td.b_right {
+    border-right: 2px solid #000;
+}
+
+table.meiro_table td.b_left {
+    border-left: 2px solid #000;
+}
